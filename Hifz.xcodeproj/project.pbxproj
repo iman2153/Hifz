@@ -13,6 +13,8 @@
 		8C545AF22D0679770040B897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C545AF12D0679770040B897 /* Preview Assets.xcassets */; };
 		8C545AF42D0679770040B897 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C545AF32D0679770040B897 /* Persistence.swift */; };
 		8C545AF72D0679770040B897 /* Hifz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C545AF52D0679770040B897 /* Hifz.xcdatamodeld */; };
+		8C545AFE2D067A4E0040B897 /* RevisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C545AFD2D067A4E0040B897 /* RevisionManager.swift */; };
+		8C545B012D068A080040B897 /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C545B002D068A080040B897 /* Quran.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		8C545AF12D0679770040B897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C545AF32D0679770040B897 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8C545AF62D0679770040B897 /* Hifz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hifz.xcdatamodel; sourceTree = "<group>"; };
+		8C545AFD2D067A4E0040B897 /* RevisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisionManager.swift; sourceTree = "<group>"; };
+		8C545B002D068A080040B897 /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,14 @@
 		8C545AE92D0679720040B897 /* Hifz */ = {
 			isa = PBXGroup;
 			children = (
+				8C545AFF2D0689FC0040B897 /* Constants */,
 				8C545AEA2D0679720040B897 /* HifzApp.swift */,
 				8C545AEC2D0679720040B897 /* ContentView.swift */,
 				8C545AEE2D0679770040B897 /* Assets.xcassets */,
 				8C545AF32D0679770040B897 /* Persistence.swift */,
 				8C545AF52D0679770040B897 /* Hifz.xcdatamodeld */,
 				8C545AF02D0679770040B897 /* Preview Content */,
+				8C545AFD2D067A4E0040B897 /* RevisionManager.swift */,
 			);
 			path = Hifz;
 			sourceTree = "<group>";
@@ -71,6 +77,14 @@
 				8C545AF12D0679770040B897 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C545AFF2D0689FC0040B897 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8C545B002D068A080040B897 /* Quran.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C545AF42D0679770040B897 /* Persistence.swift in Sources */,
+				8C545B012D068A080040B897 /* Quran.swift in Sources */,
 				8C545AED2D0679720040B897 /* ContentView.swift in Sources */,
 				8C545AF72D0679770040B897 /* Hifz.xcdatamodeld in Sources */,
+				8C545AFE2D067A4E0040B897 /* RevisionManager.swift in Sources */,
 				8C545AEB2D0679720040B897 /* HifzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
